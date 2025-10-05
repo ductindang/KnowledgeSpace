@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KnowledgeSpace.BackendServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e59c05a8a068d7a783ad21f1d821d29a97bbf2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f642bbb36c28a42a16abc7d398122affaea354")]
 [assembly: System.Reflection.AssemblyProductAttribute("KnowledgeSpace.BackendServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KnowledgeSpace.BackendServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
