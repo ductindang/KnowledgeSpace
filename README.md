@@ -3,7 +3,7 @@ KnowledgeSpace is a project for everyone, Every member can create new knowledge 
 For each KB, user can vote it and comment to below KB
 
 # Technology
-1. ASP.Core 3.1
+1. ASP.NET Core 8
 2. Angular 8
 3. Identity Server 4
 5. SQL Server 2022
