@@ -11,5 +11,8 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
 
         [MaxLength(50)]
         public string Name { get; set; }
+
+        // 🔗 Navigation
+        public ICollection<LabelInKnowledgeBase> LabelInKnowledgeBases { get; set; }
     }
 }

@@ -21,5 +21,14 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
         public int? NumberOfReports { get; set; }
 
 
+
+
+        public ICollection<Vote> Votes { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Report> Reports { get; set; }
+        public ICollection<KnowledgeBase> KnowledgeBases { get; set; }
+
+
+
     }
 }

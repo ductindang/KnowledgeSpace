@@ -6,12 +6,16 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
 {
     public class Vote : IDateTracking
     {
-        public int KnowledBaseId { get; set; }
+        public int KnowledgeBaseId { get; set; }
 
         [MaxLength(50)]
         [Column(TypeName = "varchar(50)")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? LastModifiedDate { get; set; }
+
+        // Navigation properties
+        public KnowledgeBase KnowledgeBase { get; set; }
+        public User User { get; set; }
     }
 }
