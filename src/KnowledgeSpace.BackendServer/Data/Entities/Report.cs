@@ -17,10 +17,17 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
 
         [MaxLength(50)]
         [Column(TypeName = "varchar(50)")]
-        public int ReportUserId { get; set; }
+        public string ReportUserId { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? LastModifiedDate { get; set; }
         public int Status { get; set; }
         public string Type { get; set; }
+
+
+
+        // 🔗 Navigation properties
+        public KnowledgeBase KnowledgeBase { get; set; }
+        public Comment Comment { get; set; }
+        public User ReportUser { get; set; }
     }
 }
