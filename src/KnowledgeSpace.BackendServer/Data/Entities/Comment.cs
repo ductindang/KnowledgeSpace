@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KnowledgeSpace.BackendServer.Data.Entities
 {
-    public class Comments : IDateTracking
+    public class Comment : IDateTracking
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

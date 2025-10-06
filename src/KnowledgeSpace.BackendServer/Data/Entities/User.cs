@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace KnowledgeSpace.BackendServer.Data.Entities
 {
-    public class Users : IdentityUser
+    public class User : IdentityUser
     {
         [Required]
         [MaxLength(50)]
@@ -18,6 +18,7 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
 
         public int? NumberOfKnowledgeBases { get; set; }
         public int? NumberOfVotes { get; set; }
+        public int? NumberOfReports { get; set; }
 
 
     }
