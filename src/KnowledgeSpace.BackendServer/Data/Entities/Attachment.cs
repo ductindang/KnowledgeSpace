@@ -35,5 +35,9 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
         public string Type { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? LastModifiedDate { get; set; }
+
+        // 🔗 Navigation
+        public KnowledgeBase KnowledgeBase { get; set; }
+        public Comment Comment { get; set; }
     }
 }
