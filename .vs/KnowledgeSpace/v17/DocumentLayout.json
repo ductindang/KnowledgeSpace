@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\PrivateProject\\KnowledgeSpace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\knowledgespace.backendserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\knowledgespace.backendserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\data\\entities\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\data\\entities\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\data\\entities\\labelinknowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\data\\entities\\labelinknowledgebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\data\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\data\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,28 +30,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KnowledgeSpace.BackendServer",
-              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj",
-              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj",
-              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj",
-              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-04T03:07:26.309Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Command.cs",
+              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Command.cs",
+              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Command.cs",
+              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Command.cs",
+              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T03:05:23.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LabelInKnowledgeBase.cs",
+              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\LabelInKnowledgeBase.cs",
+              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\LabelInKnowledgeBase.cs",
+              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\LabelInKnowledgeBase.cs",
+              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\LabelInKnowledgeBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T03:04:57.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Comment.cs",
+              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Comment.cs",
+              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T03:04:03.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\User.cs",
+              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\Entities\\User.cs",
+              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Data\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T02:58:54.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T02:55:33.529Z",
+              "EditorCaption": ""
             }
           ]
         }

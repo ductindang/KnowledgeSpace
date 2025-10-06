@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KnowledgeSpace.BackendServer.Data.Entities
 {
-    public class Votes : IDateTracking
+    public class Vote : IDateTracking
     {
         public int KnowledBaseId { get; set; }
 
