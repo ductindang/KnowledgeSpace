@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KnowledgeSpace.WebPortal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a99aedb43b79e2067d49b314704aa91b5a70dc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c753ac4653e4ba735696c5bdb856b3373c622a6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("KnowledgeSpace.WebPortal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KnowledgeSpace.WebPortal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

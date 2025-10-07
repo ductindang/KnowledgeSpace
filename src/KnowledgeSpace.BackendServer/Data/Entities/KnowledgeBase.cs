@@ -20,7 +20,7 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
 
         [Required]
         [MaxLength(500)]
-        [Column(TypeName = "varchar (500)")]
+        [Column(TypeName = "varchar(500)")]
         public string SeoAllias { get; set; }
 
         [MaxLength(500)]
@@ -42,8 +42,6 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
         public string Note { get; set; }
 
         [Required]
-        [MaxLength(500)]
-        [Column(TypeName = "varchar (500)")]
         public string OwnerUserId { get; set; }
 
         public string Labels { get; set; }
@@ -52,5 +50,17 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
         public int? NumberOfComments { get; set; }
         public int? NumberOfVotes { get; set; }
         public int? NumberOfReports { get; set; }
+
+
+
+        // 🔗 Navigation
+        public Category Category { get; set; }
+        public User OwnerUser { get; set; }
+        public ICollection<Vote> Votes { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Attachment> Attachments { get; set; }
+        public ICollection<LabelInKnowledgeBase> LabelInKnowledgeBases { get; set; } // Many-to-many
+        public ICollection<Report> Reports { get; set; }
+
     }
 }

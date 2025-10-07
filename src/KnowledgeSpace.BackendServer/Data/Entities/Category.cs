@@ -25,5 +25,9 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
         public int SortOrder { get; set; }
         public int? ParentId { get; set; }
         public int? NumberOfTicket { get; set; }
+
+
+        // 🔗 Navigation properties
+        public ICollection<KnowledgeBase> KnowledgeBases { get; set; }
     }
 }

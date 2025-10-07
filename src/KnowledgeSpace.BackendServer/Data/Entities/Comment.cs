@@ -20,8 +20,15 @@ namespace KnowledgeSpace.BackendServer.Data.Entities
 
         [MaxLength(50)]
         [Column(TypeName = "varchar(50)")]
-        public int OwnerUserId { get; set; }
+        public string OwnerUserId { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? LastModifiedDate { get; set; }
+
+        // 🔗 Navigation
+        public KnowledgeBase KnowledgeBase { get; set; }
+        public User OwnerUser { get; set; }
+        public ICollection<Attachment> Attachments { get; set; }
+        public ICollection<Report> Reports { get; set; }
+
     }
 }
