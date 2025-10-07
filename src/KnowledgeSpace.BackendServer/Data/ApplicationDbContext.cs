@@ -141,10 +141,9 @@ namespace KnowledgeSpace.BackendServer.Data
                     .OnDelete(DeleteBehavior.NoAction); // ❗ Không cascade
             });
 
-
-
             // Giúp giảm thiểu sự phụ thuộc vào SQL Server
             builder.HasSequence("KnowledgeBaseSequence");
+
         }
 
         public DbSet<Command> Commands { set; get; }
