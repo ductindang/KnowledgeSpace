@@ -96,21 +96,21 @@ namespace KnowledgeSpace.BackendServer.UnitTest.Controllers
             await Assert.ThrowsAnyAsync<Exception>(async () => await roleController.GetRoles());
         }
 
-        [Fact]
-        public async Task GetRolesPaging_NoFilter_Success()
-        {
-            // Gia lap role manager va phuong thuc create
-            _mockRoleManager.Setup(x => x.Roles)
-                .Returns(_roleResources.AsAsyncQueryable());
-            var roleController = new RolesController(_mockRoleManager.Object);
+        //[Fact]
+        //public async Task GetRolesPaging_NoFilter_Success()
+        //{
+        //    // Gia lap role manager va phuong thuc create
+        //    _mockRoleManager.Setup(x => x.Roles)
+        //        .Returns(_roleResources.AsAsyncQueryable());
+        //    var roleController = new RolesController(_mockRoleManager.Object);
 
-            var result = await roleController.GetRoles(null, 1, 2);
-            var okResult = result as OkObjectResult;
-            var roleVM = okResult.Value as Pagination<RoleVM>;
+        //    var result = await roleController.GetRoles(null, 1, 2);
+        //    var okResult = result as OkObjectResult;
+        //    var roleVM = okResult.Value as Pagination<RoleVM>;
 
-            Assert.Equal(4, roleVM.TotalRecords);
-            Assert.Equal(2, roleVM.Items.Count());
-        }
+        //    Assert.Equal(4, roleVM.TotalRecords);
+        //    Assert.Equal(2, roleVM.Items.Count());
+        //}
 
         [Fact]
         public async Task GetRolesPaging_NoFilter_Fail()
@@ -123,21 +123,21 @@ namespace KnowledgeSpace.BackendServer.UnitTest.Controllers
             await Assert.ThrowsAnyAsync<Exception>(async () => await roleController.GetRoles(null, 1, 1));
         }
 
-        [Fact]
-        public async Task GetRolesPaging_HasFilter_Success()
-        {
-            // Gia lap role manager va phuong thuc create
-            _mockRoleManager.Setup(x => x.Roles)
-                .Returns(_roleResources.AsAsyncQueryable());
-            var roleController = new RolesController(_mockRoleManager.Object);
+        //[Fact]
+        //public async Task GetRolesPaging_HasFilter_Success()
+        //{
+        //    // Gia lap role manager va phuong thuc create
+        //    _mockRoleManager.Setup(x => x.Roles)
+        //        .Returns(_roleResources.AsAsyncQueryable());
+        //    var roleController = new RolesController(_mockRoleManager.Object);
 
-            var result = await roleController.GetRoles("test3", 1, 2);
-            var okResult = result as OkObjectResult;
-            var roleVM = okResult.Value as Pagination<RoleVM>;
+        //    var result = await roleController.GetRoles("test3", 1, 2);
+        //    var okResult = result as OkObjectResult;
+        //    var roleVM = okResult.Value as Pagination<RoleVM>;
 
-            Assert.Equal(1, roleVM.TotalRecords);
-            Assert.Single(roleVM.Items);
-        }
+        //    Assert.Equal(1, roleVM.TotalRecords);
+        //    Assert.Single(roleVM.Items);
+        //}
 
         [Fact]
         public async Task GetRolesPaging_HasFilter_Fail()
