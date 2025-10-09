@@ -39,14 +39,14 @@ namespace KnowledgeSpace.BackendServer.Controllers
         [HttpGet]
         public async Task<IActionResult> GetRoles()
         {
-            var roles = await _roleManager.Roles
-                .Select(r => new RoleVM()
+            var roles = await _roleManager.Roles.ToListAsync();
+            var roleVMs = roles.Select(r => new RoleVM()
                 {
                     Id = r.Id,
                     Name = r.Name
-                }).ToListAsync();
+                });
 
-            return Ok(roles);
+            return Ok(roleVMs);
         }
 
         [HttpGet("/search")]
@@ -110,7 +110,8 @@ namespace KnowledgeSpace.BackendServer.Controllers
             var result = await _roleManager.UpdateAsync(role);
 
             if (result.Succeeded) {
-                return Ok(roleVM);
+                //return Ok(roleVM);
+                return NoContent();
             }
 
             return BadRequest(result.Errors);
