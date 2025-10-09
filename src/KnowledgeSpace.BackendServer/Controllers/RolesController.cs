@@ -49,7 +49,7 @@ namespace KnowledgeSpace.BackendServer.Controllers
             return Ok(roleVMs);
         }
 
-        [HttpGet("/search")]
+        [HttpGet("/filter")]
         public async Task<IActionResult> GetRoles(string filter, int pageIndex, int pageSize)
         {
             var query = _roleManager.Roles;
