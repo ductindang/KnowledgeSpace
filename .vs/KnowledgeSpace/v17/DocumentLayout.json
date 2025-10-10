@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.backendserver\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A4E6998-40F4-45EF-8484-B67C4651475F}|src\\KnowledgeSpace.BackendServer\\KnowledgeSpace.BackendServer.csproj|solutionrelative:src\\knowledgespace.backendserver\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791A5BE0-7F1C-4440-B91C-749DBF18A0B2}|src\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.viewmodels\\systems\\rolevmvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{791A5BE0-7F1C-4440-B91C-749DBF18A0B2}|src\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj|solutionrelative:src\\knowledgespace.viewmodels\\systems\\rolevmvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{791A5BE0-7F1C-4440-B91C-749DBF18A0B2}|src\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj|e:\\privateproject\\knowledgespace\\src\\knowledgespace.viewmodels\\other\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{791A5BE0-7F1C-4440-B91C-749DBF18A0B2}|src\\KnowledgeSpace.ViewModels\\KnowledgeSpace.ViewModels.csproj|solutionrelative:src\\knowledgespace.viewmodels\\other\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,50 +46,11 @@
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Program.cs",
               "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Program.cs",
-              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Program.cs*",
-              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Program.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Program.cs",
+              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T10:59:21.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoleVMValidator.cs",
-              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.ViewModels\\Systems\\RoleVMValidator.cs",
-              "RelativeDocumentMoniker": "src\\KnowledgeSpace.ViewModels\\Systems\\RoleVMValidator.cs",
-              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.ViewModels\\Systems\\RoleVMValidator.cs",
-              "RelativeToolTip": "src\\KnowledgeSpace.ViewModels\\Systems\\RoleVMValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T10:54:55.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "src\\KnowledgeSpace.BackendServer\\Controllers\\RolesController.cs",
-              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.BackendServer\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "src\\KnowledgeSpace.BackendServer\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAcwGYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:49:40.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pagination.cs",
-              "DocumentMoniker": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.ViewModels\\Other\\Pagination.cs",
-              "RelativeDocumentMoniker": "src\\KnowledgeSpace.ViewModels\\Other\\Pagination.cs",
-              "ToolTip": "E:\\PrivateProject\\KnowledgeSpace\\src\\KnowledgeSpace.ViewModels\\Other\\Pagination.cs",
-              "RelativeToolTip": "src\\KnowledgeSpace.ViewModels\\Other\\Pagination.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:49:24.419Z",
+              "WhenOpened": "2025-10-10T09:45:24.533Z",
               "EditorCaption": ""
             }
           ]
