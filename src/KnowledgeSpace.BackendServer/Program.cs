@@ -26,6 +26,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
+
 // -------------------------
 // 2. Setup Identity
 // -------------------------
@@ -54,11 +56,27 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.User.RequireUniqueEmail = true;
 });
 
+//builder.Services.AddIdentityServer(options =>
+//    {
+//        options.Events.RaiseErrorEvents = true;
+//        options.Events.RaiseInformationEvents = true;
+//        options.Events.RaiseFailureEvents = true;
+//        options.Events.RaiseSuccessEvents = true;
+//    })
+//    .AddInMemoryApiResources()
+//    .AddInMemoryClients()
+//    .AddInMemoryIdentityResources()
+//    .AddAspNetIdentity<User>();
+
+
+
+
+
 // -------------------------
 // Add other services
 // -------------------------
 // Use Fluent Validator
-builder.Services.AddControllers()
+builder.Services.AddControllersWithViews()
     .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<RoleVMValidator>());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -98,11 +116,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// To use scafford
+app.UseStaticFiles();
+app.UseRouting();
+
 app.UseHttpsRedirection();
 app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapRazorPages();
 
 // -------------------------
 // Run app
